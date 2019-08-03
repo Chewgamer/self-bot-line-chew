@@ -1,2 +1,19 @@
 # self-bot-line-chew
-1. `termux-setup-storage`   2. `cd /sdcard`   3. `apt update &amp;&amp; apt upgrade -y &amp;&amp; apt install python -y &amp;&amp; apt install git -y`   4. `git clone https://github.com/Grueta/P3.git`   5. `cd p3 &amp;&amp; python -m pip install -r pip.txt &amp;&amp; python3 p3.py`   หรือจะรันคำสั่งชุดเดียว   `termux-setup-storage &amp;&amp; cd /sdcard &amp;&amp; apt update &amp;&amp; apt upgrade -y &amp;&amp; apt install python -y &amp;&amp; apt install git -y &amp;&amp; git clone https://github.com/Grueta/P3.git &amp;&amp; cd p3 &amp;&amp; python -m pip install -r pip.txt &amp;&amp; python p3.py`     ครั้งต่อไปเข้าแอพ Termux ใช้คำสั่ง   `cd /sdcard/p3 &amp;&amp; python3 p3.py`
+
+termux-setup-storage
+
+cd /sdcard
+
+apt update && apt upgrade -y && apt install python -y && apt install git -y
+
+git clone https://github.com/Grueta/P3.git
+
+cd p3 && python -m pip install -r pip.txt && python3 p3.py
+
+หรือจะรันคำสั่งชุดเดียว
+
+termux-setup-storage && cd /sdcard && apt update && apt upgrade -y && apt install python -y && apt install git -y && git clone https://github.com/Grueta/P3.git && cd p3 && python -m pip install -r pip.txt && python p3.py
+
+ครั้งต่อไปเข้าแอพ Termux ใช้คำสั่ง
+
+cd /sdcard/p3 && python3 p3.py
